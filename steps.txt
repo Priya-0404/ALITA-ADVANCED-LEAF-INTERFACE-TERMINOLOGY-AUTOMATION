@@ -1,0 +1,14 @@
+Step 1- Goto google colab and create the model using the script "TRAINING MODEL using Google Colab:" on page 44 and by using train and valid data of project folder. (Hint: You first need to zip the project folder, then upload the zipped folder to google colab and then unzip to get the train and valid data of project folder)
+
+Step 2- Install Arduino IDE. Now make a new folder named "tools" in Documents\Arduino folder besides libraries folder.
+
+Step 3- Now copy ArduImageCapture folder inside tools folder.
+
+Step 4- Now, connect Arduino board to PC and open Arduino IDE, select port and board. Now open "LiveOV7670-master" folder -> open "src" folder -> open "LiveOV7670" folder -> and open "LiveOV7670.ino" file. 
+
+Step 5- Change the line "#define EXAMPLE 1" to "#define EXAMPLE 3" in 'setup.h' script opened in Arduino IDE.
+Now upload to the Arduino board.
+
+Step 5- Click on 'tools' -> 'ArduImageCapture'. Click on Listen and select location as "CapturedImages" folder to save the image.
+
+Step 6- Now run the "main.py" script to get the result.  
